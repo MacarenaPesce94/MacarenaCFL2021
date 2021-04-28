@@ -1,4 +1,4 @@
 let readlineSync = require("readline-sync");
-let datoUno = readlineSync.questionInt("Ingrese el dato uno:");
-let datoDos = readlineSync.questionInt("Ingrese el dato dos:");
-console.log("El area del rectangulo es:", datoUno * datoDos);
+let base = readlineSync.questionInt("Ingrese la base:");
+let altura = readlineSync.questionInt("Ingrese la altura:");
+console.log("El area del rectangulo es:", base * altura);
